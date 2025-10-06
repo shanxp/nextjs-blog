@@ -1,6 +1,6 @@
 {
-  "name": "issue-tracker",
-  "version": "0.1.0",
+  "name": "blog",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,19 +9,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@prisma/client": "^6.16.3",
+    "@radix-ui/themes": "^3.2.1",
+    "classnames": "^2.5.1",
+    "easymde": "^2.20.0",
+    "monorepo": "github:radix-ui/themes",
+    "next": "15.5.4",
+    "prisma": "^6.16.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "react-hook-form": "^7.64.0",
+    "react-icons": "^5.5.0",
+    "react-simplemde-editor": "^5.2.0",
+    "zod": "^4.1.11"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
