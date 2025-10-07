@@ -25,6 +25,7 @@ model Post {
   title       String   @db.VarChar(255)
   content String   @db.Text
   status      Status   @default(CREATED)
+  isDeleted Boolean @default(false)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }
